@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hermesandroid.bridge"
+4    android:versionCode="1"
+5    android:versionName="0.2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- HTTP server -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:5:5-67
+12-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:5:22-64
+13    <!-- Wake screen for background actions -->
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:7:5-68
+14-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:7:22-65
+15    <!-- Overlay HUD -->
+16    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+16-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:9:5-78
+16-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:9:22-75
+17    <!-- Foreground service to keep bridge alive -->
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:11:5-77
+18-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:11:22-74
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+19-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:12:5-89
+19-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:12:22-86
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+20-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:13:5-94
+20-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:13:22-91
+21    <!-- Screenshots via MediaProjection (Phase 2 enhancement) -->
+22    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+22-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:15:5-76
+22-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:15:22-73
+23    <!-- Query all installed apps (Android 11+) -->
+24    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+24-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:17:5-77
+24-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:17:22-74
+25    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+25-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:18:5-79
+25-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:18:22-76
+26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+26-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:19:5-81
+26-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:19:22-78
+27    <uses-permission android:name="android.permission.SEND_SMS" />
+27-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:20:5-67
+27-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:20:22-64
+28    <uses-permission android:name="android.permission.CALL_PHONE" />
+28-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:21:5-69
+28-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:21:22-66
+29    <uses-permission android:name="android.permission.READ_CONTACTS" />
+29-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:22:5-72
+29-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:22:22-69
+30
+31    <application
+31-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:24:5-66:19
+32        android:name="com.hermesandroid.bridge.BridgeApplication"
+32-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:25:9-42
+33        android:allowBackup="false"
+33-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:29:9-36
+34        android:debuggable="true"
+35        android:extractNativeLibs="false"
+36        android:icon="@mipmap/ic_launcher"
+36-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:27:9-43
+37        android:label="Hermes Bridge"
+37-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:26:9-38
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:28:9-54
+39        android:theme="@style/Theme.HermesBridge"
+39-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:31:9-50
+40        android:usesCleartextTraffic="true" >
+40-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:30:9-44
+41        <activity
+41-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:33:9-40:20
+42            android:name="com.hermesandroid.bridge.MainActivity"
+42-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:34:13-41
+43            android:exported="true" >
+43-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:35:13-36
+44            <intent-filter>
+44-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:36:13-39:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:37:17-69
+45-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:37:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:38:17-77
+47-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:38:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <!-- Accessibility service declaration -->
+52        <service
+52-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:43:9-54:19
+53            android:name="com.hermesandroid.bridge.service.BridgeAccessibilityService"
+53-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:44:13-63
+54            android:exported="true"
+54-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:45:13-36
+55            android:foregroundServiceType="specialUse|mediaProjection"
+55-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:46:13-71
+56            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+56-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:47:13-79
+57            <intent-filter>
+57-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:48:13-50:29
+58                <action android:name="android.accessibilityservice.AccessibilityService" />
+58-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:49:17-92
+58-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:49:25-89
+59            </intent-filter>
+60
+61            <meta-data
+61-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:51:13-53:72
+62                android:name="android.accessibilityservice"
+62-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:52:17-60
+63                android:resource="@xml/accessibility_service_config" />
+63-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:53:17-69
+64        </service>
+65
+66        <!-- Notification listener service -->
+67        <service
+67-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:57:9-64:19
+68            android:name="com.hermesandroid.bridge.service.BridgeNotificationListener"
+68-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:58:13-63
+69            android:exported="true"
+69-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:59:13-36
+70            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+70-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:60:13-87
+71            <intent-filter>
+71-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:61:13-63:29
+72                <action android:name="android.service.notification.NotificationListenerService" />
+72-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:62:17-99
+72-->/data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:62:25-96
+73            </intent-filter>
+74        </service>
+75    </application>
+76
+77</manifest>

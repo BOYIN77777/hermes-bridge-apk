@@ -1,0 +1,145 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:2:1-67:12
+	package
+		INJECTED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:7:22-65
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:9:5-78
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:9:22-75
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:11:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:12:5-89
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:12:22-86
+uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:13:5-94
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:13:22-91
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:15:22-73
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:17:5-77
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:17:22-74
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:18:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:19:22-78
+uses-permission#android.permission.SEND_SMS
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:20:22-64
+uses-permission#android.permission.CALL_PHONE
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:21:5-69
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:21:22-66
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:22:5-72
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:22:22-69
+application
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:24:5-66:19
+INJECTED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:24:5-66:19
+	android:extractNativeLibs
+		INJECTED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml
+	android:label
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:26:9-38
+	android:roundIcon
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:28:9-54
+	android:icon
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:27:9-43
+	android:allowBackup
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:29:9-36
+	android:theme
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:31:9-50
+	android:usesCleartextTraffic
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:25:9-42
+activity#com.hermesandroid.bridge.MainActivity
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:33:9-40:20
+	android:exported
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:34:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:36:13-39:29
+action#android.intent.action.MAIN
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:38:27-74
+service#com.hermesandroid.bridge.service.BridgeAccessibilityService
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:43:9-54:19
+	android:exported
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:45:13-36
+	android:permission
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:47:13-79
+	android:foregroundServiceType
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:46:13-71
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:44:13-63
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:48:13-50:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:49:17-92
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:49:25-89
+meta-data#android.accessibilityservice
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:51:13-53:72
+	android:resource
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:53:17-69
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:52:17-60
+service#com.hermesandroid.bridge.service.BridgeNotificationListener
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:57:9-64:19
+	android:exported
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:59:13-36
+	android:permission
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:60:13-87
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:58:13-63
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:61:13-63:29
+action#android.service.notification.NotificationListenerService
+ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:62:17-99
+	android:name
+		ADDED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml:62:25-96
+uses-sdk
+INJECTED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml
+INJECTED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /data/data/com.termux/files/home/hermes-android/hermes-android-bridge/app/src/main/AndroidManifest.xml
