@@ -16,6 +16,7 @@ import android.widget.TextView
 import android.widget.Toast
 import com.hermesandroid.bridge.auth.PairingManager
 import com.hermesandroid.bridge.client.RelayClient
+import com.hermesandroid.bridge.server.BridgeServer
 import com.hermesandroid.bridge.media.ScreenRecorder
 import com.hermesandroid.bridge.overlay.StatusOverlay
 import com.hermesandroid.bridge.service.BridgeAccessibilityService
@@ -72,6 +73,13 @@ class MainActivity : Activity() {
         setupPairingCode()
         setupPermissions()
         setupRelayConnection()
+
+        // Start BridgeServer lazily in MainActivity (wrapped in try-catch to prevent crash)
+        try {
+            BridgeServer.start(8765)
+        } catch (e: Exception) {
+            Toast.makeText(this, "Server start failed: ${e.message}", Toast.LENGTH_SHORT).show()
+        }
 
         updateConnectionInfo()
         updateStatus()

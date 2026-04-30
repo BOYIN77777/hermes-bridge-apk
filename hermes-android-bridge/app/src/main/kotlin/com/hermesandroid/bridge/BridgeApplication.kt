@@ -11,10 +11,8 @@ class BridgeApplication : Application() {
         super.onCreate()
         PairingManager.init(applicationContext)
         WakeLockManager.init(applicationContext)
-        BridgeServer.start(port = 8765)
 
-        // Initialize relay client and auto-connect if previously configured
+        // Initialize relay client (server is started lazily in MainActivity)
         RelayClient.init(applicationContext)
-        RelayClient.autoConnect()
     }
 }
